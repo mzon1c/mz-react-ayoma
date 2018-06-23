@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
 class App extends Component {
 
     constructor(){
@@ -16,12 +17,14 @@ class App extends Component {
     increment=() =>{this.setState({ count:this.state.count+1});}
 
     render(){
-      var x,y;
+      var x=[10];
       var pathArray = window.location.pathname.split( '/' );
       if(pathArray[1]==="")
-      x="selected";
-      else if(pathArray[1]==="second")
-      y="selected";
+      x[0]="selected";
+      else if(pathArray[1]==="products")
+      x[1]="selected";
+      else if(pathArray[1]==="about")
+      x[2]="selected";
       return(
 
 
@@ -29,11 +32,14 @@ class App extends Component {
 
 
       <ul id="navigation">
-        <li class={x}>
+        <li class={x[0]}>
           <a href="/">Home</a>
         </li>
-        <li class={y}>
-          <a href="/second">About</a>
+        <li class={x[1]}>
+          <a href="/products">Products</a>
+        </li>
+        <li class={x[2]}>
+          <a href="/about">About</a>
         </li>
         <li>
           <a href="contact.html">Contact</a>

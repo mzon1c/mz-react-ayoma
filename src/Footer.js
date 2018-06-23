@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './index.css';
 
-class App2 extends Component {
+class Footer extends Component {
 
     constructor(){
       super();
@@ -85,4 +85,4 @@ render(){
 
 
 }
-export default App2;
+export default Footer;

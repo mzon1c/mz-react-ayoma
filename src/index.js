@@ -2,15 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import App2 from './App2';
+import Footer from './Footer';
 import Ahome from './Ahome';
+import Products from './Products';
 import  {BrowserRouter, Route} from 'react-router-dom';
 
 ReactDOM.render(
  <BrowserRouter>
    <div>
    <Route exact path='/' component={App} />
-   <Route path='/second' component={App} />
+   <Route exact path='/products' component={App} />
+   <Route path='/about' component={App} />
    </div>
 </BrowserRouter>,
  document.getElementById('root'));
@@ -19,10 +21,15 @@ ReactDOM.render(
  if(pathArray[1]==="")
   {
     ReactDOM.render(<Ahome/>,document.getElementById('contents'));
-    ReactDOM.render(<App2/>,document.getElementById('footer'));
+    ReactDOM.render(<Footer/>,document.getElementById('footer'));
   }
- else if(pathArray[1]==="second")
+ else if(pathArray[1]==="about")
   {
     ReactDOM.render(<Ahome/>,document.getElementById('contents'));
-    ReactDOM.render(<App2/>,document.getElementById('footer'));
+    ReactDOM.render(<Footer/>,document.getElementById('footer'));
   }
+  else if(pathArray[1]==="products")
+   {
+     ReactDOM.render(<Products/>,document.getElementById('contents'));
+     ReactDOM.render(<Footer/>,document.getElementById('footer'));
+   }
