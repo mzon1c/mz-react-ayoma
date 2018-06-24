@@ -29,9 +29,9 @@
 }
 body {
 	/*background: #edefea url(../images/bg-body.jpg) repeat-x left top; */
-	min-width: 960px;
+	min-width: 940px;
 
-  max-width: 1000px;
+  max-width: 3840px;
  margin: 0 auto;
  padding: 0 5%;
  clear: both;
