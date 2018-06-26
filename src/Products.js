@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './main.css';
-import './normalize.css';
+import './index.css';
 import './products.css';
 import './js/font-awesome.min.css';
 
@@ -53,7 +53,7 @@ class Products extends Component {
 
 
   					<strong>Printers</strong>
-  					<small>...</small>
+
 
   			</a>
   		</li>
@@ -62,7 +62,7 @@ class Products extends Component {
 
 
   					<strong>Lamination Machine</strong>
-  					<small>...</small>
+
 
   			</a>
   		</li>
@@ -89,7 +89,7 @@ class Products extends Component {
 
 
   					<strong>ID Card Products</strong>
-  					<small>...</small>
+  					<small>thisksakjsa</small>
 
   			</a>
   			<ul>

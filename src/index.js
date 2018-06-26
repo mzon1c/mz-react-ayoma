@@ -31,5 +31,6 @@ ReactDOM.render(
   else if(pathArray[1]==="products")
    {
      ReactDOM.render(<Products/>,document.getElementById('contents'));
+
      ReactDOM.render(<Footer/>,document.getElementById('footer'));
    }
