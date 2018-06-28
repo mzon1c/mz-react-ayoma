@@ -610,7 +610,8 @@ border-right: 0%;
    display: none;
  }
  .puerto-menu li a strong {
-   display: none;
+   display: block;
+   font-size: 5px;
  }
  .puerto-menu li a:hover strong,.puerto-menu li a.active strong {
    display:block;
