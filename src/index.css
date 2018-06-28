@@ -436,3 +436,14 @@ p a:hover {
 	text-align: center;
 	text-shadow: none;
 }
+
+@media screen and (max-width: 600px){
+body{
+width: auto;
+height: auto;
+
+
+}
+
+
+}
