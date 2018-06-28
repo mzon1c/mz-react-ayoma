@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './main.css';
+
 import './index.css';
 import './products.css';
 import './js/font-awesome.min.css';
 
+
+
 class Products extends Component {
 
-    constructor(){
-      super();
-      this.state={count:0};
+    constructor(props){
+      super(props);
+
 
 
 
@@ -21,24 +23,84 @@ class Products extends Component {
 
     render(){
 
-      function select() {
-        document.getElementById('main-menu').className="sub-menu active";
+
+
+      function selectmenu0(noo) {
+    var i;
+      for(i=0;i<=6;i++)
+      {
+        if((document.getElementById(i).className)===("menu-active"))
+    document.getElementById(i).className="menu";
+      }
+        document.getElementById(0).className="menu-active";
+        document.getElementById('prodlist').src="./printers.html";
+
+      }
+      function selectmenu1(noo) {
+    var i;
+      for(i=0;i<=6;i++)
+      {
+        if((document.getElementById(i).className)===("menu-active"))
+    document.getElementById(i).className="menu";
+      }
+        document.getElementById(1).className="menu-active";
+        document.getElementById('prodlist').src="./index.html";
+
+      }
+      function selectmenu2(noo) {
+    var i;
+      for(i=0;i<=6;i++)
+      {
+        if((document.getElementById(i).className)===("menu-active"))
+    document.getElementById(i).className="menu";
+      }
+        document.getElementById(2).className="menu-active";
+
+      }
+      function selectmenu3(noo) {
+    var i;
+      for(i=0;i<=6;i++)
+      {
+        if((document.getElementById(i).className)===("menu-active"))
+    document.getElementById(i).className="menu";
+      }
+        document.getElementById(3).className="menu-active";
+
+      }
+      function selectmenu4(noo) {
+    var i;
+      for(i=0;i<=6;i++)
+      {
+        if((document.getElementById(i).className)===("menu-active"))
+    document.getElementById(i).className="menu";
+      }
+        document.getElementById(4).className="menu-active";
+
+      }
+      function selectmenu5(noo) {
+    var i;
+      for(i=0;i<=6;i++)
+      {
+        if((document.getElementById(i).className)===("menu-active"))
+    document.getElementById(i).className="menu";
+      }
+        document.getElementById(5).className="menu-active";
+
+      }
+      function selectmenu6(noo) {
+    var i;
+      for(i=0;i<=6;i++)
+      {
+        if((document.getElementById(i).className)===("menu-active"))
+    document.getElementById(i).className="menu";
+      }
+        document.getElementById(6).className="menu-active";
 
       }
 
-      function expand(){
-
-        document.getElementById('main-menu').className="sub-menu active";
 
 
 
-      }
-
-      function close(){
-
-        document.getElementById('main-menu').className="sub-menu";
-
-      }
 
       return(
 
@@ -46,10 +108,9 @@ class Products extends Component {
         <div class="container">
 
 
-
-  	<ul class="puerto-menu">
+  	<ul class="puerto-menu" >
   		<li>
-  			<a href="#">
+  			<a id="0" href="javascript:void(0);" onClick={selectmenu0} class="menu-active">
 
 
   					<strong>Printers</strong>
@@ -57,8 +118,9 @@ class Products extends Component {
 
   			</a>
   		</li>
+
   		<li>
-  			<a href="#" class="active">
+  			<a id="1" href="javascript:void(0);" onClick={selectmenu1}>
 
 
   					<strong>Lamination Machine</strong>
@@ -67,7 +129,7 @@ class Products extends Component {
   			</a>
   		</li>
   		<li>
-  			<a href="#">
+  			<a href="javascript:void(0);" onClick={selectmenu2} id="2">
 
 
   					<strong>Paper Cutter</strong>
@@ -76,7 +138,7 @@ class Products extends Component {
   			</a>
   		</li>
   		<li>
-  			<a href="#">
+  			<a href="javascript:void(0);" onClick={selectmenu3} id="3">
 
 
   					<strong>T-Shirt/Mug</strong>
@@ -85,7 +147,7 @@ class Products extends Component {
   			</a>
   		</li>
   		<li>
-  			<a href="#" class="hover">
+  			<a href="javascript:void(0);" onClick={selectmenu4} class="hover" id="4">
 
 
   					<strong>ID Card Products</strong>
@@ -93,27 +155,27 @@ class Products extends Component {
 
   			</a>
   			<ul>
-  				<li><a href="#">Mission</a></li>
+  				<li><a href="javascript:void(0);" onClick={selectmenu4}>Mission</a></li>
   				<li>
-  					<a href="#" class="hover">Our Team</a>
+  					<a href="javascript:void(0);" onClick={selectmenu4} class="hover">Our Team</a>
   					<ul>
-  						<li><a href="#">Leyla Sparks</a></li>
+  						<li><a href="javascript:void(0);" onClick={selectmenu4}>Leyla Sparks</a></li>
   						<li>
-  							<a href="#" class="hover">Gleb Ismailov</a>
+  							<a href="javascript:void(0);" onClick={selectmenu4} class="hover">Gleb Ismailov</a>
   							<ul>
-  								<li><a href="#">About</a></li>
-  								<li><a href="#">Skills</a></li>
+  								<li><a href="javascript:void(0);" onClick={selectmenu4}>About</a></li>
+  								<li><a href="javascript:void(0);" onClick={selectmenu4}>Skills</a></li>
   							</ul>
   						</li>
-  						<li><a href="#">Viktoria Gibbers</a></li>
+  						<li><a href="javascript:void(0);" onClick={selectmenu4}>Viktoria Gibbers</a></li>
   					</ul>
   				</li>
-  				<li><a href="#">Rewards</a></li>
-  				<li><a href="#">Certificates</a></li>
+  				<li><a href="javascript:void(0);" onClick={selectmenu4}>Rewards</a></li>
+  				<li><a href="javascript:void(0);" onClick={selectmenu4}>Certificates</a></li>
   			</ul>
   		</li>
   		<li>
-  			<a href="#">
+  			<a href="javascript:void(0);" onClick={selectmenu5} id="5">
 
 
   					<strong>Cleaning Tissue</strong>
@@ -122,7 +184,7 @@ class Products extends Component {
   			</a>
   		</li>
   		<li>
-  			<a href="#">
+  			<a href="javascript:void(0);" onClick={selectmenu6} id="6">
 
 
   					<strong>Inks</strong>
@@ -137,6 +199,13 @@ class Products extends Component {
   			</a>
   		</li>
   	</ul>
+
+<div class="viewprod">
+
+  <h3>hello</h3>
+
+  <iframe id="prodlist" width="850px" height="500px" src="./printers.html" frameBorder="0"></iframe>
+</div>
 
   </div>
 

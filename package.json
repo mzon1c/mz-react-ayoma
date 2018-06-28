@@ -6,6 +6,7 @@
     "react": "^16.4.0",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.0",
+    "react-iframe": "^1.2.0",
     "react-menu-bar": "^2.0.4",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4"
