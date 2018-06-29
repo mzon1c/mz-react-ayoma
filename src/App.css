@@ -111,10 +111,16 @@
   }
 }
 @media screen and (max-width: 600px){
-body{
-width: 480px;
-height: 720px;
+html, body{
+
 overflow-x:hidden;
+position: relative;
+
+}
+
+#page{
+
+
 
 }
 }
