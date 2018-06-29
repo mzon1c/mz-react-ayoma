@@ -400,7 +400,7 @@ text-align: center;
 #links > li {
 
 display: inline-block;
-	width: 220px;
+	width: 20%;
 	margin: 0 10px;
 }
 #links h4 {
@@ -411,7 +411,7 @@ display: inline-block;
 }
 #links > li ul {
 	list-style: none;
-	width: 190px;
+	width: 100%;
 	margin: 0;
 	padding: 0;
 }
@@ -504,7 +504,7 @@ padding: 0;
 #navigation li {
 display: inline-block;
 height: 100%;
-width: 100px;
+width: 20%;
 
 }
 #navigation li a {
