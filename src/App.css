@@ -113,7 +113,7 @@
 @media screen and (max-width: 600px){
 html, body{
 
-overflow:hidden;
+overflow-x:hidden;
 position: relative;
 margin: 0;
 height: 100%;
@@ -121,7 +121,7 @@ height: 100%;
 
 #page{
 
-	overflow:hidden;
+	overflow-x:hidden;
 	position: relative;
 	margin: 0;
 	height: 100%;

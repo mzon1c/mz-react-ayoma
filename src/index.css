@@ -29,16 +29,16 @@
 }
 body {
 	/*background: #edefea url(../images/bg-body.jpg) repeat-x left top; */
-	min-width: 940px;
+	min-width: 400px;
 
   max-width: 3840px;
- margin: 0 auto;
- padding: 0 5%;
+ margin: 0;
+ padding: 0 0%;
  clear: both;
 
 }
 #page {
-	width: 960px;
+	width: 95%;
 	margin: 0 auto;
 }
 img {
@@ -442,7 +442,7 @@ p a:hover {
 @media screen and (max-width: 600px){
 html, body{
 
-overflow:hidden;
+overflow-x:hidden;
 position: relative;
 margin: 0;
 height: 100%;
@@ -450,7 +450,7 @@ height: 100%;
 
 .footer{
 
-	overflow:hidden;
+
 	position: relative;
 	margin: 0;
 	height: 100%;
@@ -459,7 +459,7 @@ height: 100%;
 
 .contents{
 
-	overflow:hidden;
+
 	position: relative;
 	margin: 0;
 	height: 100%;
