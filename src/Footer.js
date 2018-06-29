@@ -29,20 +29,7 @@ render(){
                 </li>
               </ul>
             </li>
-            <li>
-              <h4>Heading placeholder</h4>
-              <ul>
-                <li>
-                  <a href="index.html">Link Title 1</a>
-                </li>
-                <li>
-                  <a href="index.html">Link Title 2</a>
-                </li>
-                <li>
-                  <a href="index.html">Link Title 3</a>
-                </li>
-              </ul>
-            </li>
+            
             <li>
               <h4>Heading placeholder</h4>
               <ul>
