@@ -27,8 +27,10 @@
 	display: inline-block;
 	list-style: none;
 	width: 650px;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
+
+
 }
 #navigation li {
 	float: left;

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './menu.css';
 
 
-class App extends Component {
+class Menu extends Component {
 
     constructor(){
       super();
@@ -61,4 +61,4 @@ class App extends Component {
 
 
 
-export default App;
+export default Menu;
