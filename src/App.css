@@ -95,7 +95,7 @@
   }
 
 
-	
+
 }
 
 
@@ -112,8 +112,8 @@
 }
 @media screen and (max-width: 600px){
 body{
-width: auto;
-height: auto;
+width: 480px;
+height: 720px;
 overflow-x:hidden;
 
 }
