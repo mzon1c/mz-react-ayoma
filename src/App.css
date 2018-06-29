@@ -121,7 +121,10 @@ height: 100%;
 
 #page{
 
-
+	overflow:hidden;
+	position: relative;
+	margin: 0;
+	height: 100%;
 
 }
 }

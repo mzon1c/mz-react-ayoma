@@ -437,13 +437,33 @@ p a:hover {
 	text-shadow: none;
 }
 
-@media screen and (max-width: 600px){
-body{
-width: auto;
-height: auto;
 
+
+@media screen and (max-width: 600px){
+html, body{
+
+overflow:hidden;
+position: relative;
+margin: 0;
+height: 100%;
+}
+
+.footer{
+
+	overflow:hidden;
+	position: relative;
+	margin: 0;
+	height: 100%;
 
 }
 
+.contents{
+
+	overflow:hidden;
+	position: relative;
+	margin: 0;
+	height: 100%;
+
+}
 
 }
