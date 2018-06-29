@@ -31,11 +31,14 @@
 	padding: 0;
 
 
+
+
 }
 #navigation li {
-	float: left;
+	float: center;
 	height: 60px;
 	width: 160px;
+
 	text-align: center;
 }
 #navigation li a {

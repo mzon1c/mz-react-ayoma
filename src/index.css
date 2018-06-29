@@ -36,9 +36,10 @@ body {
  padding: 0 0%;
  clear: both;
 
+
 }
 #page {
-	width: 95%;
+	width: 100%;
 	margin: 0 auto;
 }
 img {
@@ -101,23 +102,38 @@ p a:hover {
 .select:hover {
 	background-position: -151px -34px;
 }
+
+
+
+
+
+@media screen and (min-width: 1000px){
+
 /*------------------------------ HEADER ------------------------------*/
-#header {
-	margin-bottom: 30px;
-	text-align: right;
-}
-/** Logo **/
-#logo {
-	float: left;
-	margin: 27px 0 41px 50px;
-}
-/** Navigation **/
+	#header {
+		margin-bottom: 30px;
+		text-align: center;
+
+	}
+	/** Logo **/
+	#logo {
+		float: left;
+		padding-left: 5%;
+		margin: 27px 0 41px 50px;
+
+	}
+
+	/** Navigation **/
+
 #navigation {
 	display: inline-block;
 	list-style: none;
 	width: 650px;
 	margin: 0;
 	padding: 0;
+
+
+
 }
 #navigation li {
 	float: left;
@@ -145,6 +161,8 @@ p a:hover {
 #navigation li a:hover, #navigation li.selected a {
 	color: #f39c12;
 	/*text-shadow: 0 1px #bf6d13;*/
+}
+
 }
 .searchbar {
 	float: right;
@@ -363,9 +381,12 @@ p a:hover {
 	border-top: 1px solid #cfd5d7;
 	position: absolute;
 	left: 0;
+	margin: 0 auto;
+
 }
 #footer > div {
-	width: 960px;
+text-align: center;
+	width: 100%;
 	margin: 0 auto;
 }
 /** links **/
@@ -377,7 +398,8 @@ p a:hover {
 	padding: 0;
 }
 #links > li {
-	float: left;
+
+display: inline-block;
 	width: 220px;
 	margin: 0 10px;
 }
@@ -439,31 +461,71 @@ p a:hover {
 
 
 
-@media screen and (max-width: 600px){
+
+
+@media screen and (max-width: 1000px){
+
 html, body{
 
-overflow-x:hidden;
-position: relative;
-margin: 0;
+
+//	overflow-x: hidden;
+}
+
+#page{
+
+	overflow-x:hidden;
+
+
+
+}
+#header{
+
+
+
+}
+
+
+#logo{
+	text-align: center;
+}
+
+
+/** Navigation **/
+
+#navigation {
+text-align:center;
+
+list-style: none;
+width: 100%;
+padding: 0;
+
+
+}
+#navigation li {
+display: inline-block;
 height: 100%;
-}
-
-.footer{
-
-
-	position: relative;
-	margin: 0;
-	height: 100%;
+width: 100px;
 
 }
+#navigation li a {
+color: #78450d;
+display: inline-block;
+font: 12px/14px 'OpenSans-Semibold';
+padding: 20px 20px 0;
+text-decoration: none;
+/*text-shadow: 0 1px #fbc78e;*/
+}
+#navigation li:hover{
 
-.contents{
-
-
-	position: relative;
-	margin: 0;
-	height: 100%;
 
 }
 
+
+#navigation li.selected {
+	background: url(/images/bg-navigation-hover.png) no-repeat center top;
+}
+#navigation li a:hover, #navigation li.selected a {
+color: #f39c12;
+/*text-shadow: 0 1px #bf6d13;*/
+}
 }
