@@ -5,6 +5,7 @@ import Menu from './Menu';
 import Footer from './Footer';
 import Ahome from './Ahome';
 import Products from './Products';
+import './index.css';
 import  {BrowserRouter, Route} from 'react-router-dom';
 
 ReactDOM.render(

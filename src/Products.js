@@ -15,15 +15,11 @@ class Products extends Component {
 
 
 
-    }
-
-
+}
 
 
 
     render(){
-
-
 
       function selectmenu0(noo) {
     var i;
@@ -36,6 +32,10 @@ class Products extends Component {
         document.getElementById('prodlist').src="./printers.html";
 
       }
+
+
+
+
       function selectmenu1(noo) {
     var i;
       for(i=0;i<=6;i++)
