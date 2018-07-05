@@ -107,7 +107,7 @@ p a:hover {
 
 
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1150px){
 
 /*------------------------------ HEADER ------------------------------*/
 	#header {
@@ -128,7 +128,7 @@ p a:hover {
 #navigation {
 	display: inline-block;
 	list-style: none;
-	width: 650px;
+	
 	margin: 0;
 	padding: 0;
 
@@ -461,7 +461,7 @@ display: inline-block;
 
 
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1150px){
 
 html, body{
 

@@ -5,6 +5,7 @@ import Menu from './Menu';
 import Footer from './Footer';
 import Ahome from './Ahome';
 import Products from './Products';
+import Services from './Services';
 import './index.css';
 import  {BrowserRouter, Route} from 'react-router-dom';
 
@@ -13,7 +14,9 @@ ReactDOM.render(
    <div>
    <Route exact path='/' component={Menu} />
    <Route exact path='/products' component={Menu} />
+   <Route exact path='/services' component={Menu} />
    <Route path='/about' component={Menu} />
+
    </div>
 </BrowserRouter>,
  document.getElementById('root'));
@@ -21,12 +24,14 @@ ReactDOM.render(
  var pathArray = window.location.pathname.split( '/' );
  if(pathArray[1]==="")
   {
+
     ReactDOM.render(<Ahome/>,document.getElementById('contents'));
     ReactDOM.render(<Footer/>,document.getElementById('footer'));
   }
  else if(pathArray[1]==="about")
   {
-    ReactDOM.render(<Ahome/>,document.getElementById('contents'));
+
+   
     ReactDOM.render(<Footer/>,document.getElementById('footer'));
   }
   else if(pathArray[1]==="products")
@@ -35,3 +40,10 @@ ReactDOM.render(
 
      ReactDOM.render(<Footer/>,document.getElementById('footer'));
    }
+   else if(pathArray[1]==="services")
+   {
+     ReactDOM.render(<Services/>,document.getElementById('contents'));
+     ReactDOM.render(<Footer/>,document.getElementById('footer'));
+   }
+  
+

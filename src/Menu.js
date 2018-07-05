@@ -23,8 +23,10 @@ class Menu extends Component {
       x[0]="selected";
       else if(pathArray[1]==="products")
       x[1]="selected";
-      else if(pathArray[1]==="about")
+      else if(pathArray[1]==="services")
       x[2]="selected";
+      else if(pathArray[1]==="about")
+      x[3]="selected";
       return(
 
 
@@ -39,6 +41,9 @@ class Menu extends Component {
           <a href="/products">Products</a>
         </li>
         <li class={x[2]}>
+          <a href="/services">Services</a>
+        </li>
+        <li class={x[3]}>
           <a href="/about">About</a>
         </li>
         <li>

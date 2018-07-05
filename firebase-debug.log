@@ -1,0 +1,66 @@
+[debug] [2018-07-04T18:50:43.062Z] ----------------------------------------------------------------------
+[debug] [2018-07-04T18:50:43.068Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\akku\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-07-04T18:50:43.068Z] CLI Version:   3.19.3
+[debug] [2018-07-04T18:50:43.068Z] Platform:      win32
+[debug] [2018-07-04T18:50:43.068Z] Node Version:  v8.11.2
+[debug] [2018-07-04T18:50:43.069Z] Time:          Thu Jul 05 2018 00:20:43 GMT+0530 (India Standard Time)
+[debug] [2018-07-04T18:50:43.069Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-04T18:50:43.082Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-04T18:50:43.089Z] > authorizing via signed-in user
+[debug] [2018-07-04T18:50:43.090Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/ayoma-7d089  
+  
+ Thu Jul 05 2018 00:20:43 GMT+0530 (India Standard Time)
+[debug] [2018-07-04T18:50:45.247Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-04T18:50:45.248Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/ayoma-7d089/tokens  
+  
+ Thu Jul 05 2018 00:20:45 GMT+0530 (India Standard Time)
+[debug] [2018-07-04T18:50:46.616Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'ayoma-7d089'...
+[info] 
+[info] i  deploying database, storage, firestore, functions, hosting
+[debug] [2018-07-04T18:50:49.715Z] TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:28:11)
+    at Object.join (path.js:489:7)
+    at Config.path (C:\Users\akku\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:166:37)
+    at C:\Users\akku\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:68:38
+    at _chain (C:\Users\akku\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:26:38)
+    at C:\Users\akku\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:29:14
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2018-07-04T18:52:22.817Z] ----------------------------------------------------------------------
+[debug] [2018-07-04T18:52:22.834Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\akku\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy --debug
+[debug] [2018-07-04T18:52:22.835Z] CLI Version:   3.19.3
+[debug] [2018-07-04T18:52:22.837Z] Platform:      win32
+[debug] [2018-07-04T18:52:22.838Z] Node Version:  v8.11.2
+[debug] [2018-07-04T18:52:22.839Z] Time:          Thu Jul 05 2018 00:22:22 GMT+0530 (India Standard Time)
+[debug] [2018-07-04T18:52:22.840Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-04T18:52:22.860Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-04T18:52:22.868Z] > authorizing via signed-in user
+[debug] [2018-07-04T18:52:22.871Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/ayoma-7d089  
+  
+ Thu Jul 05 2018 00:22:22 GMT+0530 (India Standard Time)
+[debug] [2018-07-04T18:52:25.252Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-04T18:52:25.272Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/ayoma-7d089/tokens  
+  
+ Thu Jul 05 2018 00:22:25 GMT+0530 (India Standard Time)
+[debug] [2018-07-04T18:52:26.979Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'ayoma-7d089'...
+[info] 
+[info] i  deploying database, storage, firestore, functions, hosting
+[debug] [2018-07-04T18:52:30.214Z] TypeError: Path must be a string. Received undefined
+    at assertPath (path.js:28:11)
+    at Object.join (path.js:489:7)
+    at Config.path (C:\Users\akku\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:166:37)
+    at C:\Users\akku\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\lifecycleHooks.js:68:38
+    at _chain (C:\Users\akku\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:26:38)
+    at C:\Users\akku\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\index.js:29:14
+    at <anonymous>
+    at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+[error] 
+[error] Error: An unexpected error has occurred.
