@@ -31,7 +31,7 @@ ReactDOM.render(
  else if(pathArray[1]==="about")
   {
 
-   
+    ReactDOM.render(<Ahome/>,document.getElementById('contents'));
     ReactDOM.render(<Footer/>,document.getElementById('footer'));
   }
   else if(pathArray[1]==="products")
